@@ -88,5 +88,5 @@ class ErsteClient(object):
                 'access_token': self.access_token,
                 'id': self.account_id,
             })
-        return r.text
+        return r.text[1:]
         
